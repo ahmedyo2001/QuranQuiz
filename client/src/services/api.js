@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_URL = 'http://localhost:5000/api/';
 const HUGGINGFACE_API_URL = 'https://api-inference.huggingface.co/models/tarteel-ai/whisper-base-ar-quran';
-const HUGGINGFACE_TOKEN = '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'; // Replace with your actual token
+const HUGGINGFACE_TOKEN = 'hf_##########################'; // Replace with your actual token
 const ALQURAN_API_URL = 'http://api.alquran.cloud/v1/ayah/';
 
 export const queryHuggingFaceAPI = async (data) => {
